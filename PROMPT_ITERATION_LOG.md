@@ -59,19 +59,41 @@ This was the baseline prompt with no prompt engineering techniques applied. I in
 
 ## Technique
 
-Role Assignment
+**Role Assignment**
 
 ## Prompt
 
-> You are an experienced GitHub technical writer. Create a professional README for my Retail Sales & Inventory Analytics project.
+> You are an experienced GitHub technical writer.
+>
+> Write a professional GitHub README for my Retail Sales & Inventory Analytics project.
 
-## Representative Output
+## Output Excerpt
 
-The AI produced a cleaner README with better headings, clearer language, and a more professional writing style.
+```md
+# 🛒 Retail Sales & Inventory Analytics
+
+> A complete end-to-end Retail Analytics project that transforms raw retail data into actionable business insights using **SQL, Python, Power BI, and Excel**.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![SQL](https://img.shields.io/badge/MySQL-Database-orange?logo=mysql)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?logo=powerbi)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![License](https://img.shields.io/badge/License-MIT-green)
+```
+
+*(Full output available in `outputs/version1-chatgpt.md`)*
 
 ## Observation
 
-Assigning a role improved the tone and organization of the document. However, the AI still lacked enough project-specific context.
+Assigning ChatGPT the role of an experienced GitHub technical writer immediately improved the professionalism of the README. Compared to the baseline, the headings were better organized, the language was more polished, and the documentation followed common GitHub conventions more closely. However, because I still didn't specify the audience or required sections, the model decided on the content structure itself, which meant some important details were either brief or omitted.
+
+## What Changed?
+
+The only change from Version 0 was assigning the AI a specific role ("experienced GitHub technical writer"). No additional context, formatting instructions, examples, or constraints were provided.
+
+## Why This Improved
+
+Giving the AI a professional role influenced its writing style and organization. Instead of producing a generic response, it adopted a documentation-focused approach, resulting in a README that was clearer and more suitable for a GitHub repository.
 
 ---
 
