@@ -32,13 +32,26 @@ None (Baseline)
 
 > Write a GitHub README for my Retail Sales & Inventory Analytics project.
 
-## Representative Output
+## Output Excerpt
 
-The AI generated a simple README containing a short project description and a list of technologies. The structure was basic and lacked installation instructions, project highlights, and professional formatting.
+```md
+# 🛍️ Retail Sales & Inventory Analytics
+
+> End-to-end Retail Sales & Inventory Analytics project using **MySQL,
+> Python, Pandas, Scikit-learn, Power BI, and Excel**.
+
+## 📌 Project Overview
+```
+
+*(Full output available in `outputs/version0-chatgpt.md`)*
 
 ## Observation
 
-The prompt was too vague, so the AI had to guess what information should be included. The README required significant manual editing before it was suitable for GitHub.
+Although the prompt was intentionally minimal, ChatGPT generated a fairly complete README because it retained context from previous conversations about my project. The output included relevant technologies and project details, but the structure and emphasis still reflected AI assumptions rather than explicit instructions. This highlighted how conversation memory can improve results even when prompt engineering techniques are not used.
+
+## What Changed?
+
+This was the baseline prompt with no prompt engineering techniques applied. I intentionally gave only a one-line instruction to observe how the model would respond without additional guidance.
 
 ---
 
