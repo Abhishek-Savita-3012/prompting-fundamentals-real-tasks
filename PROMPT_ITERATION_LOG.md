@@ -182,36 +182,45 @@ Few-shot prompting reduced ambiguity by showing the AI exactly how I wanted the 
 
 ---
 
+---
+
 # Version 4 – Output Structure
 
 ## Technique
 
-Output Structure
+**Output Structure**
 
 ## Prompt
 
-> Create a GitHub README in Markdown.
+> *(Paste the prompt used above.)*
 
-Include exactly these sections:
+## Output Excerpt
 
-1. Project Overview
-2. Features
-3. Technologies Used
-4. Project Architecture
-5. Installation
-6. Usage
-7. Dashboard Preview
-8. Business Insights
-9. Future Improvements
-10. Author
+```md
+# 📊 Retail Sales & Inventory Analytics
 
-## Representative Output
+A comprehensive end-to-end **Retail Sales & Inventory Analytics** project that combines **SQL, Python, Power BI, and Excel** to analyze retail business performance, customer behavior, inventory management, and sales forecasting. The project transforms raw retail data into actionable business insights through data cleaning, exploratory analysis, machine learning, and interactive dashboards.
 
-The README matched the requested section order and used consistent Markdown formatting.
+---
+
+# Project Overview
+
+Retail businesses generate large volumes of sales and inventory data every day. Without proper analysis, it becomes difficult to identify high-performing products, understand customer purchasing behavior, optimize inventory levels, and forecast future sales.
+```
+
+*(Full output available in `outputs/version4-chatgpt.md`)*
 
 ## Observation
 
-Specifying the exact output structure produced a more complete and predictable document with minimal manual reorganization.
+Specifying the exact output structure made the generated README much more consistent and predictable. Every required section appeared in the correct order, making the document easier to review and reducing the need for manual reorganization. Compared to Version 3, the output followed the requested format more precisely.
+
+## What Changed?
+
+Compared to Version 3, I explicitly defined the exact Markdown sections and their order. The role assignment, project context, and example structure remained the same, but the AI no longer had to decide how to organize the final document.
+
+## Why This Improved
+
+Providing a fixed output structure reduced ambiguity and ensured that all important information was included. The README became more complete, consistent, and aligned with professional GitHub documentation standards.
 
 ---
 
