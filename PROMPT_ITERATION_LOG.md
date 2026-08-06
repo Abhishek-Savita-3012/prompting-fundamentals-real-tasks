@@ -147,39 +147,38 @@ Giving the AI information about the audience and objective helped it prioritize 
 
 ## Technique
 
-Few-Shot Examples
+**Few-Shot Examples**
 
 ## Prompt
 
-> Here is the structure I want:
+> *(Paste the prompt you used above.)*
 
-Example:
+## Output Excerpt
 
-# Project Title
+```md
+# 🛍️ Retail Sales & Inventory Analytics
 
-## Overview
+> An end-to-end Data Analytics project that transforms retail sales and inventory data into actionable business insights using **SQL, Python, Power BI, and Excel**.
 
-## Features
+![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/retail-sales-inventory-analytics?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/yourusername/retail-sales-inventory-analytics?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
+```
 
-## Technologies Used
-
-## Installation
-
-## Dashboard Screenshots
-
-## Business Insights
-
-## Author
-
-Now create a README for my Retail Sales & Inventory Analytics project using the same structure.
-
-## Representative Output
-
-The AI followed the example structure closely and produced a well-organized README with consistent formatting.
+*(Full output available in `outputs/version3-chatgpt.md`)*
 
 ## Observation
 
-Providing an example significantly improved consistency and reduced formatting errors.
+Providing an example README structure helped the AI closely match the desired formatting and organization. The generated document followed consistent headings, improved section flow, and reduced the amount of manual formatting required. Compared to Version 2, the output was more predictable and visually organized.
+
+## What Changed?
+
+Compared to Version 2, I added a sample README structure for the AI to imitate. The role assignment and project context remained the same, but the AI now had a concrete example to follow.
+
+## Why This Improved
+
+Few-shot prompting reduced ambiguity by showing the AI exactly how I wanted the README to be organized. Instead of deciding the format on its own, it followed the example, producing a more consistent and professional result.
 
 ---
 
