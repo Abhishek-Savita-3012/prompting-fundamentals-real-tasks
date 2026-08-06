@@ -97,23 +97,49 @@ Giving the AI a professional role influenced its writing style and organization.
 
 ---
 
-# Version 2 – Context and Motivation
+# Version 2 – Context & Motivation
 
 ## Technique
 
-Context & Motivation
+**Context & Motivation**
 
 ## Prompt
 
-> You are writing a GitHub README for recruiters reviewing my Data Analytics portfolio. The README should clearly explain the business problem, project goals, technologies used, and key outcomes.
+> You are an experienced GitHub technical writer.
+>
+> Create a professional GitHub README for my Retail Sales & Inventory Analytics project.
+>
+> Context:
+> This project is part of my Data Analytics portfolio and will be reviewed by recruiters hiring for Data Analyst and Business Intelligence roles.
+>
+> Goal:
+> Write a README that clearly explains the business problem, project objectives, technologies used, key features, business insights, and the value of the project. The content should be professional, easy to understand, and suitable for GitHub.
 
-## Representative Output
+## Output Excerpt
 
-The README focused more on explaining the project's purpose instead of simply listing technologies.
+```md
+# 📊 Retail Sales & Inventory Analytics
+
+> End-to-end Retail Sales & Inventory Analytics project using **SQL, Python, Power BI, and Excel** to analyze sales performance, customer behavior, inventory efficiency, and forecast future sales.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/retail-sales-inventory-analytics)
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/retail-sales-inventory-analytics)
+![GitHub stars](https://img.shields.io/github/stars/your-username/retail-sales-inventory-analytics?style=social)
+```
+
+*(Full output available in `outputs/version2-chatgpt.md`)*
 
 ## Observation
 
-Providing context and audience helped the AI produce a README that better matched the expectations of recruiters and hiring managers.
+Providing context about the intended audience and the purpose of the README significantly improved the generated content. Instead of focusing only on technical details, the README emphasized the business problem, project objectives, and practical value. The writing became more aligned with what recruiters expect to see in a professional portfolio.
+
+## What Changed?
+
+Compared to Version 1, I added context about who would read the README (recruiters) and why it was being written (to showcase a portfolio project). No formatting examples or structural constraints were introduced.
+
+## Why This Improved
+
+Giving the AI information about the audience and objective helped it prioritize relevant content. The README shifted from being purely descriptive to explaining the project's business impact, making it more suitable for a portfolio intended for job applications.
 
 ---
 
