@@ -151,7 +151,42 @@ Giving the AI information about the audience and objective helped it prioritize 
 
 ## Prompt
 
-> *(Paste the prompt you used above.)*
+> You are an experienced GitHub technical writer.
+> 
+> Create a professional GitHub README for my Retail Sales & Inventory Analytics project.
+> 
+> Context:
+> This project is part of my Data Analytics portfolio and will be reviewed by recruiters hiring for Data Analyst and Business Intelligence roles.
+> 
+> Here is an example of the style and structure I want:
+> 
+> # Project Name
+> 
+> ## Overview
+> Briefly explain the project and the problem it solves.
+> 
+> ## Features
+> - Feature 1
+> - Feature 2
+> - Feature 3
+> 
+> ## Technologies Used
+> - Technology 1
+> - Technology 2
+> 
+> ## Installation
+> Step-by-step installation instructions.
+> 
+> ## Usage
+> Explain how to run the project.
+> 
+> ## Screenshots
+> Mention where screenshots can be added.
+> 
+> ## Author
+> Your Name
+> 
+> Now create a README for my Retail Sales & Inventory Analytics project using a similar style and structure.
 
 ## Output Excerpt
 
@@ -192,7 +227,56 @@ Few-shot prompting reduced ambiguity by showing the AI exactly how I wanted the 
 
 ## Prompt
 
-> *(Paste the prompt used above.)*
+> You are an experienced GitHub technical writer.
+> 
+> Create a professional GitHub README for my Retail Sales & Inventory Analytics project.
+> 
+> Context:
+> This project is part of my Data Analytics portfolio and will be reviewed by recruiters hiring for Data Analyst and Business Intelligence roles.
+> 
+> Here is an example of the style and structure I want:
+> 
+> # Project Name
+> 
+> ## Overview
+> Briefly explain the project and the problem it solves.
+> 
+> ## Features
+> - Feature 1
+> - Feature 2
+> - Feature 3
+> 
+> ## Technologies Used
+> - Technology 1
+> - Technology 2
+> 
+> ## Installation
+> Step-by-step installation instructions.
+> 
+> ## Usage
+> Explain how to run the project.
+> 
+> ## Screenshots
+> Mention where screenshots can be added.
+> 
+> ## Author
+> Your Name
+> 
+> Use **exactly** the following Markdown structure in your response:
+> 
+> 1. Project Title
+> 2. Project Overview
+> 3. Key Features
+> 4. Technologies Used
+> 5. Project Architecture
+> 6. Installation
+> 7. Usage
+> 8. Dashboard Screenshots
+> 9. Business Insights
+> 10. Future Improvements
+> 11. Author
+> 
+> Return only the README in Markdown format.
 
 ## Output Excerpt
 
@@ -228,37 +312,92 @@ Providing a fixed output structure reduced ambiguity and ensured that all import
 
 ## Technique
 
-Step Decomposition
+**Step Decomposition**
 
 ## Prompt
 
-> Complete this task in stages.
+> You are an experienced GitHub technical writer.
+>
+> Create a professional GitHub README for my Retail Sales & Inventory Analytics project.
+> 
+> Context:
+> This project is part of my Data Analytics portfolio and will be reviewed by recruiters hiring for Data Analyst and Business Intelligence roles.
+>
+> Example style:
+>
+> # Project Name
+>
+> ## Overview
+> 
+> ## Features
+>
+> ## Technologies Used
+>
+> ## Installation
+>
+> ## Usage
+>
+> ## Dashboard Screenshots
+>
+> ## Business Insights
+>
+> ## Future Improvements
+>
+> ## Author
+>
+> Use exactly this Markdown structure:
+>
+> 1. Project Title
+> 2. Project Overview
+> 3. Key Features
+> 4. Technologies Used
+> 5. Project Architecture
+> 6. Installation
+> 7. Usage
+> 8. Dashboard Screenshots
+> 9. Business Insights
+> 10. Future Improvements
+> 11. Author
+>
+> Complete the task in these steps:
+>
+> Step 1: Understand the project and its purpose.
+>
+> Step 2: Identify the target audience and determine what information they need.
+>
+> Step 3: Plan the README structure before writing.
+>
+> Step 4: Generate the complete README.
+>
+> Step 5: Review the README for completeness, Markdown formatting, clarity, and missing sections.
+>
+> Step 6: Suggest any improvements and then present the final polished README.
+>
+> Return only the final improved README in Markdown.
 
-Step 1:
-Understand the Retail Sales & Inventory Analytics project.
+## Output Excerpt
 
-Step 2:
-Identify the target audience.
+```md
+# Retail Sales & Inventory Analytics
 
-Step 3:
-Plan the README structure.
+## Project Overview
 
-Step 4:
-Generate the README.
+...
+```
 
-Step 5:
-Review the README for completeness, Markdown formatting, clarity, and missing sections.
-
-Step 6:
-Suggest improvements before presenting the final version.
-
-## Representative Output
-
-The AI first planned the document, then generated a comprehensive README, reviewed its own work, and suggested improvements before producing the final version.
+*(Full output available in `outputs/version5-chatgpt.md`)*
 
 ## Observation
 
-Breaking the task into smaller steps produced the highest-quality README. The generated content required very little editing and closely matched professional GitHub documentation.
+Breaking the task into smaller stages produced the most complete and polished README. The AI planned the documentation before writing, reviewed its own output, and generated a final version that required very little manual editing. Compared to Version 4, the README was more comprehensive, consistent, and better aligned with professional GitHub documentation standards.
+
+## What Changed?
+
+Compared to Version 4, I instructed the AI to complete the task in multiple stages: understand the project, identify the audience, plan the structure, generate the README, review it, and suggest improvements before presenting the final version.
+
+## Why This Improved?
+
+Step decomposition encouraged the AI to reason about the task before generating content. This resulted in a more complete README, improved organization, better quality control, and fewer missing sections.
 
 ---
 
